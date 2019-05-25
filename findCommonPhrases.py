@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Licensed under Apache License v2 #
+# Licensed under Apache License v2
+# https://github.com/Salamdev/Quran-CommonPhrases
+
 import mysql.connector
 from tqdm import tqdm
 from difflib import SequenceMatcher
@@ -11,7 +13,7 @@ from shutil import move
 #####################
 
 minimumMatchingWords = 3
-maximumMatchingWords = 10000  # 10000 for unlimited
+maximumMatchingWords = 100  # 100 for unlimited
 surahRangeToExtractSimilars = [1, 114]  # Surah Range (1 - 114) To Extract Similars From Whole Quran
 mysqlconfig = {
     'user': 'user',
