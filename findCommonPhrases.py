@@ -16,8 +16,8 @@ minimumMatchingWords = 3
 maximumMatchingWords = 100  # 100 for unlimited
 surahRangeToExtractSimilars = [1, 114]  # Surah Range (1 - 114) To Extract Similars From Whole Quran
 mysqlconfig = {
-    'user': 'user',
-    'password': '123456',
+    'user': 'root',
+    'password': '',
     'host': '127.0.0.1',
     'database': 'quran'
 }
