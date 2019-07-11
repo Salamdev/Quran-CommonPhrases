@@ -1,0 +1,1 @@
+ UPDATE quran_text SET text = REPLACE(text, 'ÈöÓúãö Çááøóåö ÇáÑøóÍúãóäö ÇáÑøóÍöíãö ', '') WHERE sura > 1 AND aya = 1;
