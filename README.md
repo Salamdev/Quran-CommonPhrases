@@ -1,5 +1,7 @@
 # Quran Common Phrases
 
+By the python difflib.SequenceMatcher
+
 Download result from [Releases](https://github.com/Salamdev/Quran-CommonPhrases/releases) page.
 
 Steps:
